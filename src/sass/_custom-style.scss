@@ -1,0 +1,37 @@
+.section-area{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #000;
+ .black-transparent-bg{
+   background: rgba(0,0,0,0.7);
+   padding: 14% 0;
+   margin-top: -14.7%;
+   display: block;
+   min-height: 500px;
+ }
+}
+
+.first-section-dark-bg{
+  color: #FFF !important;
+  background: url('../images/first-section-bg.jpg') no-repeat center scroll;
+  background-size: cover;
+ text-align: center;
+  min-height: 500px;
+  padding: 10% 0 0;
+
+  h1{
+    font-size: 90px;
+    font-weight:800;
+    margin-bottom: 40px;
+  }
+
+  p{
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
