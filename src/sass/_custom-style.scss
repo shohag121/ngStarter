@@ -1,3 +1,9 @@
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+
 .section-area{
   padding-top: 30px;
   padding-bottom: 30px;
@@ -31,7 +37,21 @@
   }
 }
 
-.navbar {
-  margin-bottom: 0px;
-  border-radius: 0px;
+
+.featured-three-section{
+  padding: 7% 0;
+  text-align: center;
+  .glyphicon {
+    font-size: 60px;
+  }
+
+  h3{
+    font-size: 35px;
+    font-weight:800;
+  }
+
+  p{
+    font-size: 20px;
+  }
 }
+
