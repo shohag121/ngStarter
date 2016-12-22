@@ -62,6 +62,7 @@
     font-size: 20px;
   }
 }
+
 .showcase-area{
   background: #eee;
   padding: 40px 0px;
@@ -97,5 +98,23 @@
       }
 
     }
+  }
+}
+
+.call-to-action-section {
+  margin: 0px;
+  padding: 10% 0;
+  background: url("../images/first-section-bg.jpg") no-repeat center scroll;
+  background-size: cover;
+  height: 300px;
+  text-align: center;
+
+  h2{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #eee;
   }
 }
