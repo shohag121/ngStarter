@@ -1,6 +1,10 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 .navbar {
-  margin-bottom: 0px;
-  border-radius: 0px;
+  margin-bottom: 0;
+  border-radius: 0;
 }
 
 
@@ -19,7 +23,7 @@
 
 .first-section-dark-bg{
   color: #FFF !important;
-  background: url('../images/first-section-bg.jpg') no-repeat center scroll;
+  background: url('../images/project1.jpg') no-repeat center scroll;
   background-size: cover;
  text-align: center;
   min-height: 500px;
@@ -65,11 +69,11 @@
 
 .showcase-area{
   background: #eee;
-  padding: 40px 0px;
+  padding: 40px 0;
   text-align: center;
 
   .showcase-header-area{
-    margin:3% 0px 5%;
+    margin:3% 0 5%;
 
     h2{
       font-size: 40px;
@@ -81,7 +85,7 @@
 
   .thumbnail{
     img{
-      padding: 0px !important;
+      padding: 0 !important;
       min-width:100%;
     }
     .caption{
@@ -102,19 +106,60 @@
 }
 
 .call-to-action-section {
-  margin: 0px;
+  margin: 0;
   padding: 10% 0;
-  background: url("../images/first-section-bg.jpg") no-repeat center scroll;
+  background: url("../images/project1.jpg") no-repeat center scroll;
   background-size: cover;
   height: 300px;
   text-align: center;
 
   h2{
-    margin: 0;
-    padding: 0;
+    margin: -20px 0 0;
     font-weight: 600;
     font-size: 40px;
     text-align: center;
     text-shadow: 1px 1px 1px #eee;
+    padding: 20px;
+    background: rgba(255, 193, 7, 0.61);
+    border: 1px dashed #fff;
   }
+}
+
+.contact-about-area{
+  margin: 8% 0;
+
+  .footer-link{
+    margin: 0;
+    padding:0;
+
+    li{
+      margin: 10px 0;
+      display: block;
+      list-style: none;
+      a{
+        text-decoration: none;
+        padding:0 3px 0;
+        color: #fb8296;
+        font-size: 16px;
+        font-weight:500;
+
+        &:hover{
+          color: #fff;
+          background: #fb8296;
+        }
+      }
+    }
+  }
+}
+
+.footer-area{
+  color: #FFFFFF;
+  background: #000;
+  font-size:14px;
+  padding:3% 0 2%;
+
+  a{
+    color: #fff;
+  }
+
 }
